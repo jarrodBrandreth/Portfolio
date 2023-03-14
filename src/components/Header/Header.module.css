@@ -1,0 +1,50 @@
+.header {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 4rem;
+}
+
+.title {
+  font-size: 0.8em;
+  color: var(--color-alt);
+  font-weight: 200;
+}
+
+.location {
+  position: absolute;
+  top: 75%;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.location .icon {
+  font-size: 1.6rem;
+  position: absolute;
+  top: 0;
+  left: -20%;
+  color: var(--pop);
+  opacity: 0.6;
+}
+
+@media (max-width: 700px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .location {
+    font-size: 1rem;
+  }
+}

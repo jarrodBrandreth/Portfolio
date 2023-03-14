@@ -1,0 +1,102 @@
+.container {
+  position: relative;
+  left: 8px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 6px 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--pop);
+  color: #ffffff;
+  border-radius: 16px;
+  transition: 0.3s;
+}
+
+.button .icon {
+  font-size: 1.4rem;
+  transition: 0.2s;
+}
+
+.list_open .button {
+  border-radius: 2px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.list_open .button .icon {
+  margin-left: 40px;
+  transform: rotate(90deg);
+}
+
+.list {
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  margin-top: 6px;
+  padding: 4px;
+  border: 1px solid var(--border-color);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: var(--hover-bg-main);
+  box-shadow: var(--box-shadow-main);
+  font-weight: 600;
+  visibility: hidden;
+}
+
+.list_open .list {
+  visibility: visible;
+  transition-delay: 0.2s;
+}
+
+.list .icon {
+  font-size: 1.6rem;
+}
+
+.list li a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+}
+
+/* HOVER STYLES */
+@media (hover: hover) {
+  .list li a {
+    color: var(--color-alt);
+  }
+
+  .button:hover {
+    opacity: 0.75;
+    box-shadow: var(--box-shadow-main);
+  }
+
+  .list_open .button:hover {
+    box-shadow: none;
+  }
+
+  .list li a:hover,
+  .list li a:focus-within {
+    background-color: var(--button-hover-bg);
+    color: var(--color-main);
+  }
+}
+
+/* SCREEN SIZES */
+@media (max-width: 640px) {
+  .list {
+    margin: unset;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-color: #f5f5f5;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .list li a {
+    color: #ffffff;
+  }
+}

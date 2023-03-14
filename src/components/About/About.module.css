@@ -1,0 +1,30 @@
+.content {
+  width: min(900px,100%);
+  margin: auto;
+  padding:0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.portrait {
+  width: min(240px,100%);
+  border: 2px solid var(--pop);
+  margin: 0px 20px 20px 0px;
+  border-radius: var(--slight-border-radius);
+}
+
+.portrait img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+  box-shadow: var(--box-shadow-main);
+  border-radius: var(--slight-border-radius);
+}
+
+.content p {
+  flex: 1 1 300px;
+  font-size: 1.1rem;
+}
