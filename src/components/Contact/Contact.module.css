@@ -10,7 +10,7 @@
   font-size: 1rem;
   font-weight: 600;
   background-color: var(--pop);
-  color: #ffffff;
+  color: #fafafa;
   border-radius: 16px;
   transition: 0.3s;
 }
@@ -40,7 +40,7 @@
   border: 1px solid var(--border-color);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
-  background-color: var(--hover-bg-main);
+  background-color: var(--bg-alt);
   box-shadow: var(--box-shadow-main);
   font-weight: 600;
   visibility: hidden;
@@ -68,7 +68,8 @@
     color: var(--color-alt);
   }
 
-  .button:hover {
+  .button:hover,
+  .button:focus-within {
     opacity: 0.75;
     box-shadow: var(--box-shadow-main);
   }

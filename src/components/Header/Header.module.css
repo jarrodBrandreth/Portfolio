@@ -36,7 +36,6 @@
   top: 0;
   left: -20%;
   color: var(--pop);
-  opacity: 0.6;
 }
 
 @media (max-width: 700px) {

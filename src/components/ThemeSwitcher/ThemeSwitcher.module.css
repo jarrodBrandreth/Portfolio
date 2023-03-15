@@ -4,8 +4,9 @@
   align-items: center;
   padding: 12px;
   border-radius: 50%;
-  box-shadow: var(--box-shadow-alt);
+  box-shadow: var(--box-shadow-main);
   transition: 0.6s;
+  background-color: var(--bg-alt);
 }
 
 .icon {
@@ -16,16 +17,19 @@
 
 /* HOVER STYLES */
 @media (hover: hover) {
-  .button:hover {
+  .button:hover,
+  .button:focus-within {
     background-color: #303134;
-    box-shadow: var(--box-shadow-alt-hover);
+    box-shadow: var(--box-shadow-alt);
   }
 
-  .button:hover .icon.dark {
+  .button:hover .icon.dark,
+  .button:focus-within .icon.dark {
     color: #f6e178;
   }
 
-  .button:hover .icon.light {
+  .button:hover .icon.light,
+  .button:focus-within .icon.light {
     color: #f5be32;
   }
 }

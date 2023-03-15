@@ -19,36 +19,32 @@ body {
   background-color: var(--bg-main);
   color: var(--color-main);
   --slight-border-radius: 4px;
+  --box-shadow-alt: 0px 5px 5px -3px #00000033, 0px 8px 10px 1px #00000024,
+    0px 3px 14px 2px #0000001f;
 }
 
 .light {
   --bg-main: #fafafa;
+  --bg-alt: #ffffff;
   --color-main: #202124;
   --color-alt: #5f6368;
-  --pop: tomato;
+  --pop: #f1502f;
   --border-color: #dadce0;
   --box-shadow-main: 0 1px 2px 0 #3c40434d, 0 2px 6px 2px #3c404326;
-  --hover-bg-main: #ffffff00;
-  --button-hover-bg: #2021241d;
+  --button-hover-bg: #575a621d;
   --mobile-menu-bg: #181818b3;
-  --box-shadow-alt: 0 1px 2px 0 #3c40434d, 0 2px 6px 2px #3c404326;
-  --box-shadow-alt-hover: 0px 5px 5px -3px #00000033, 0px 8px 10px 1px #00000024,
-    0px 3px 14px 2px #0000001f;
 }
 
 .dark {
   --bg-main: #202124;
+  --bg-alt: #303134;
   --color-main: #fafafa;
   --color-alt: #9aa0a6;
-  --pop: tomato;
+  --pop: #f1502f;
   --border-color: #5f6368;
   --box-shadow-main: none;
-  --hover-bg-main: #303134;
   --button-hover-bg: #bac1d740;
   --mobile-menu-bg: #4c4c4cb3;
-  --box-shadow-alt: none;
-  --box-shadow-alt-hover: 0px 5px 5px -3px #00000033, 0px 8px 10px 1px #00000024,
-    0px 3px 14px 2px #0000001f;
 }
 
 p {

@@ -45,6 +45,7 @@
     top: 0;
     left: 0;
     background-color: transparent;
+    border-radius: var(--slight-border-radius);
     transition: 0.4s;
   }
 
@@ -56,10 +57,12 @@
     bottom: 0;
     right: 0;
     background-color: transparent;
+    border-radius: var(--slight-border-radius);
     transition: 0.4s;
   }
 
-  .nav > a:hover {
+  .nav > a:hover,
+  .nav > a:focus-within {
     color: var(--color-main);
   }
 
@@ -92,7 +95,7 @@
   }
 
   .open .menu_button {
-    color: white;
+    color: #fafafa;
     transition: 0.5s ease-in-out;
   }
 
@@ -119,6 +122,6 @@
   .nav > a {
     font-size: 1.8rem;
     font-weight: 400;
-    color: white;
+    color: #fafafa;
   }
 }

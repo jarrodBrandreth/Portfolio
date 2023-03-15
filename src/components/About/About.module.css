@@ -1,18 +1,16 @@
 .content {
-  width: min(900px,100%);
+  width: min(900px, 100%);
   margin: auto;
-  padding:0px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 .portrait {
-  width: min(240px,100%);
+  width: min(240px, 100%);
   border: 2px solid var(--pop);
-  margin: 0px 20px 20px 0px;
+  margin: 20px 20px 40px 20px;
   border-radius: var(--slight-border-radius);
 }
 
@@ -25,6 +23,13 @@
 }
 
 .content p {
-  flex: 1 1 300px;
+  flex: 1 1 360px;
   font-size: 1.1rem;
+  padding: 20px;
+}
+
+@media (max-width: 640px) {
+  .content p {
+    background-color: var(--bg-alt);
+  }
 }
