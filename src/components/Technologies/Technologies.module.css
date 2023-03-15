@@ -34,7 +34,7 @@
 }
 
 /* HOVER STYLES */
-@media (hover: hover) {
+@media (hover: hover) and (min-width: 700px) {
   .item,
   .icon,
   .name {
@@ -46,16 +46,12 @@
   }
 
   .item:hover .icon {
-    top: 45%;
-    right: 50%;
-    transform: translate(50%, -50%) scale(1.4);
-    color: var(--color-main);
     color: var(--icon-color);
+    transform: translate(calc(-58px + 50%), calc(50px - 50%)) scale(1.4);
   }
 
   .item:hover .name {
-    left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(calc(58px - 50%));
   }
 }
 
@@ -67,11 +63,14 @@
     padding: 0px 10px;
   }
 
+  .item {
+    background-color: var(--bg-alt);
+  }
+
   .icon {
     top: 6px;
     right: 6px;
     color: var(--icon-color);
-    opacity: 0.6;
   }
 
   .name {

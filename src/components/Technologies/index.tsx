@@ -38,7 +38,7 @@ const technologies: TechnologiesProps[] = [
   {
     name: 'React',
     Icon: FaReact,
-    color: '#61dbfb',
+    color: '#61dafb',
   },
   {
     name: 'Node JS',
