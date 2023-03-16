@@ -33,6 +33,7 @@ body {
   --box-shadow-main: 0 1px 2px 0 #3c40434d, 0 2px 6px 2px #3c404326;
   --button-hover-bg: #575a621d;
   --mobile-menu-bg: #181818b3;
+  --button-bg-alt:#fafafa;
 }
 
 .dark {
@@ -45,6 +46,7 @@ body {
   --box-shadow-main: none;
   --button-hover-bg: #bac1d740;
   --mobile-menu-bg: #4c4c4cb3;
+  --button-bg-alt:#3c4043;
 }
 
 p {

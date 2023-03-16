@@ -50,19 +50,16 @@
     background-color: var(--bg-alt);
   }
 
-  .link:hover,
-  .link:focus-within {
+  .link:hover {
     background-color: var(--button-hover-bg);
   }
 
-  .link:hover .icon,
-  .link:focus-within .icon {
+  .link:hover .icon {
     color: var(--color-main);
     color: var(--pop);
   }
 
-  .link:hover::before,
-  .link:focus-within::before {
+  .link:hover::before {
     width: max-content;
     content: attr(data-info);
     position: absolute;
