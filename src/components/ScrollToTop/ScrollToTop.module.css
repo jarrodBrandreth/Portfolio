@@ -1,0 +1,59 @@
+.button {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow-main);
+  background-color: var(--button-bg-alt);
+  transition: 0.3s;
+}
+
+.icon {
+  color: var(--color-alt);
+  font-size: 1.4rem;
+  transition: 0.3s;
+}
+
+/* HOVER STYLES */
+@media (hover: hover) {
+  .button:hover {
+    box-shadow: var(--box-shadow-alt);
+  }
+
+  .button:hover::before {
+    content: 'Back To Top';
+    width: max-content;
+    position: absolute;
+    top: -36px;
+    padding: 4px 6px;
+    background-color: var(--color-main);
+    color: var(--bg-main);
+    border-radius: var(--slight-border-radius);
+    font-size: 0.9rem;
+    font-weight: 500;
+    scale: 0.8;
+    animation: 0.2s linear forwards grow;
+  }
+
+  @keyframes grow {
+    to {
+      scale: 1;
+    }
+  }
+
+  .button:hover .icon {
+    color: var(--color-main);
+  }
+}
+
+/* SCREEN SIZES */
+@media (max-width: 640px) {
+  .button {
+    bottom: 20px;
+    right: 16px;
+  }
+}
