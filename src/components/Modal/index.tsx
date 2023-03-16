@@ -38,9 +38,10 @@ export function Modal({ name, image, qrCode, description, children }: ModalProps
           className={`${styles.screenshot} ${showing === 'screenshot' ? styles.showing : ''}`}
           src={image}
           alt={`${name} screenshot`}
+          draggable="false"
         />
         <figure className={`${styles.qr_code} ${showing === 'qr' ? styles.showing : ''}`}>
-          <img src={qrCode} alt={`${name} qr code`} />
+          <img src={qrCode} alt={`${name} qr code`} draggable="false" />
           <figcaption>Scan to view on mobile</figcaption>
         </figure>
         <p className={`${styles.description} ${showing === 'description' ? styles.showing : ''}`}>

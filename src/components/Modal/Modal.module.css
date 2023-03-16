@@ -122,7 +122,6 @@
 
   article:hover .screenshot,
   article:focus-within .screenshot {
-    /* transform: scale(0.95); */
     filter: saturate(1);
   }
 
@@ -131,8 +130,7 @@
     transform: scale(0.95);
   }
 
-  .modal_buttons button:hover,
-  .modal_buttons button:focus-within {
+  .modal_buttons button:hover {
     background-color: var(--button-hover-bg);
     color: var(--color-main);
   }

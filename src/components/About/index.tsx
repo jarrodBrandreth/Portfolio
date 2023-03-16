@@ -8,7 +8,7 @@ export function About() {
       <h2 className="section_heading">About</h2>
       <div className={styles.content}>
         <figure className={styles.portrait}>
-          <img src={portrait} alt="portrait" />
+          <img src={portrait} alt="portrait" draggable="false" />
         </figure>
         <p>
           Im a Full-stack developer and graduate of Foo Codings Software Development Course. I enjoy
