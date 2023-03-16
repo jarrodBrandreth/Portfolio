@@ -16,20 +16,30 @@ export function Contact() {
       </button>
       <ul className={styles.list}>
         <li>
-          <a href="www.google.com" target="_blank" rel="noreferrer" onClick={close}>
+          <a
+            href="https://linkedin.com/in/jarrod-brandreth/"
+            target="_blank"
+            rel="noreferrer"
+            onClick={close}
+          >
             <LinkedInIcon className={styles.icon} /> LinkedIn
           </a>
         </li>
         <li>
-          <a href="www.google.com" target="_blank" rel="noreferrer" onClick={close}>
+          <a
+            href="https://github.com/jarrodBrandreth/"
+            target="_blank"
+            rel="noreferrer"
+            onClick={close}
+          >
             <GitHubIcon className={styles.icon} /> GitHub
           </a>
         </li>
-        <li>
-          <a href="www.google.com" target="_blank" rel="noreferrer" onClick={close}>
+        {/* <li>
+          <a href="mailto" target="_blank" rel="noreferrer" onClick={close}>
             <EmailIcon className={styles.icon} /> E-mail
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );
