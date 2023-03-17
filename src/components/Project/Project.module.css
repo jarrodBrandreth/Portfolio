@@ -26,8 +26,7 @@
   font-size: 1.6rem;
 }
 
-.link,
-.link_unavailable {
+.link {
   position: relative;
   width: 36px;
   aspect-ratio: 1/1;
@@ -36,10 +35,6 @@
   align-items: center;
   padding: 4px;
   border-radius: var(--slight-border-radius);
-}
-
-.link_unavailable {
-  opacity: 0.4;
 }
 
 /* HOVER STYLES */
