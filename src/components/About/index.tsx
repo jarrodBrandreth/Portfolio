@@ -11,10 +11,11 @@ export function About() {
           <img src={portrait} alt="portrait" draggable="false" />
         </figure>
         <p>
-          Im a Full-stack developer and graduate of Foo Codings Software Development Course. I enjoy
-          using web technologies to bring ideas to reality. I like to work with the user in mind,
-          building accessible responsive apps. When not in front of a computer I enjoy bike rides,
-          skateboarding or sitting down with a puzzle.
+          I'm a Full-stack developer and graduate of Foo Codings Software Development Course. I
+          enjoy using web technologies to bring ideas to reality. Always keeping the user in mind, I
+          strive to bring functionality, accessibility and responsiveness to all my work. I love a
+          challenge so in my free time you can find me out skateboarding or sitting down with a
+          puzzle.
         </p>
       </div>
     </section>

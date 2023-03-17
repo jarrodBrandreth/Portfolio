@@ -23,13 +23,8 @@
 }
 
 .content p {
+  padding: 20px;
   flex: 1 1 360px;
   font-size: 1.1rem;
-  padding: 20px;
-}
-
-@media (max-width: 640px) {
-  .content p {
-    background-color: var(--bg-alt);
-  }
+  font-weight: 500;
 }
