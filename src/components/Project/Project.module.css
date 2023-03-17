@@ -44,8 +44,7 @@
 
 /* HOVER STYLES */
 @media (hover: hover) {
-  .article:hover,
-  .article:focus-within {
+  .article:hover {
     box-shadow: var(--box-shadow-main);
     background-color: var(--bg-alt);
   }

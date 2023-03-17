@@ -22,6 +22,7 @@
 }
 
 .display .screenshot {
+  aspect-ratio: 4/3;
   object-fit: cover;
   border-radius: var(--slight-border-radius);
 }
@@ -120,13 +121,11 @@
     filter: saturate(0.6);
   }
 
-  article:hover .screenshot,
-  article:focus-within .screenshot {
+  article:hover .screenshot {
     filter: saturate(1);
   }
 
-  article:hover .display,
-  article:focus-within .display {
+  article:hover .display {
     transform: scale(0.95);
   }
 
