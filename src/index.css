@@ -90,7 +90,7 @@ button:focus-within {
 
 main > section {
   padding-top: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 60px;
 }
 
 .section_heading {
@@ -98,5 +98,5 @@ main > section {
   font-weight: 400;
   text-transform: uppercase;
   font-size: 2rem;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }

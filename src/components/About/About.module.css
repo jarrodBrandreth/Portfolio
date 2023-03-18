@@ -10,7 +10,7 @@
 .portrait {
   width: min(240px, 100%);
   border: 2px solid var(--pop);
-  margin: 20px 20px 40px 20px;
+  margin: 0px 20px 20px;
   border-radius: var(--slight-border-radius);
 }
 
@@ -23,7 +23,7 @@
 }
 
 .content p {
-  padding: 20px;
+  margin: 30px;
   flex: 1 1 360px;
   font-size: 1.1rem;
   font-weight: 500;

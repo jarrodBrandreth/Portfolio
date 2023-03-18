@@ -6,7 +6,7 @@
 .button {
   display: flex;
   align-items: center;
-  padding: 6px 14px;
+  padding: 4px 12px;
   font-size: 1rem;
   font-weight: 600;
   background-color: var(--pop);
